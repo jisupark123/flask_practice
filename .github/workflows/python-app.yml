@@ -21,7 +21,7 @@ jobs:
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
           image: jisupark123/github-actions-app
-          tags: v3, latest
+          tags: ${{ github.sha }}, v3 # 이전 버전의 태그를 지정
           registry: docker.io
           username: jisupark123
           password: dckr_pat_Rfig_ameqFlruneS8xnUt2fHOvU
