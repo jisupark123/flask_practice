@@ -10,4 +10,4 @@ def home():
 
 # 포트 지정()
 if __name__ == "__main__":
-    app.run("0.0.0.0", 80, True)
+    app.run("0.0.0.0", 5000, True)
